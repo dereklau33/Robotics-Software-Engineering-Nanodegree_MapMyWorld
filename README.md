@@ -67,22 +67,16 @@ Create a workspace:
 ```bash
 $ mkdir -p /home/workspace/catkin_ws/src
 $ cd /home/workspace/catkin_ws/src
-$ catkin_init_workspace
 ```   
 
 Copy code from previous project WhereAmI:
 ```bash
-git clone --bare https://github.com/dereklau33/Robotics-Software-Engineering-Nanodegree_WhereAmI.git
-
-cd Robotics-Software-Engineering-Nanodegree_WhereAmI.git
-git push --mirror https://github.com/dereklau33/Robotics-Software-Engineering-Nanodegree_MapMyWorld.git
-
-cd ..
-rm -rf Robotics-Software-Engineering-Nanodegree_WhereAmI.git
+$ git clone https://github.com/dereklau33/Robotics-Software-Engineering-Nanodegree_MapMyWorld.git
 ```
 
 Build package:  
 ```bash
-source devel/setup.bash
-catkin_make
+$ cd ..
+$ source devel/setup.bash
+$ catkin_make
 ```
