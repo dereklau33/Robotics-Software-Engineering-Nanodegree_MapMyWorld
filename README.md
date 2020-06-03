@@ -88,7 +88,7 @@ roslaunch my_robot world.launch
 
 Launch the teleop node for keyboard control:
 ```bash
-roslaunch my_robot teleop.launch
+
 ```   
 
 Launch the RTAB-Map mapping node:
