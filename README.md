@@ -95,5 +95,9 @@ Launch the RTAB-Map mapping node:
 ```bash
 roslaunch my_robot mapping.launch
 ```   
-With the Keyboard, Move the Robot to Each Room to Map the Environment. Approximately Three Loop Closures are Sufficient to Map the Environment. This Can be Done by Following a Similar Path Two to Three Times.
+
+With the keyboard, move the robot to each room to map the environment. To map the environment, three loop closures are suffice. This can be done by following a similar path around the environmnet two to three times. 
+
+When using rtab_databaseViewer, ensure the graph and constraint views are open via View. The graph view displays the path as well as the mapped 2D environment. The constraint view displays where links and loop closures are created. The middle screen dispalys images taken where the yellow circles represents features and the pink circles represent feautres in common with other images.
+
 
