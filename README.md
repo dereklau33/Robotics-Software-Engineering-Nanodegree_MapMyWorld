@@ -81,14 +81,14 @@ $ source devel/setup.bash
 $ catkin_make
 ```
 
-Launch the world in Gazebo:
+Launch the world in Gazebo and RViz:
 ```bash
 roslaunch my_robot world.launch
 ```   
 
-Launch the teleop node for keyboard control:
+Launch the teleop node:
 ```bash
-
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```   
 
 Launch the RTAB-Map mapping node:
@@ -96,8 +96,4 @@ Launch the RTAB-Map mapping node:
 roslaunch my_robot mapping.launch
 ```   
 
-Launch RViz:
-```bash
-roslaunch my_robot rviz.launch
-```   
 
