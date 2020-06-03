@@ -80,3 +80,24 @@ $ cd ..
 $ source devel/setup.bash
 $ catkin_make
 ```
+
+Launch the world in Gazebo:
+```bash
+roslaunch my_robot world.launch
+```   
+
+Launch the teleop node for keyboard control:
+```bash
+roslaunch my_robot teleop.launch
+```   
+
+Launch the RTAB-Map mapping node:
+```bash
+roslaunch my_robot mapping.launch
+```   
+
+Launch RViz:
+```bash
+roslaunch my_robot rviz.launch
+```   
+
