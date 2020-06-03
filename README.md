@@ -95,5 +95,5 @@ Launch the RTAB-Map mapping node:
 ```bash
 roslaunch my_robot mapping.launch
 ```   
-
+With the Keyboard, Move the Robot to Each Room to Map the Environment. Approximately Three Loop Closures are Sufficient to Map the Environment. This Can be Done by Following a Similar Path Two to Three Times.
 
