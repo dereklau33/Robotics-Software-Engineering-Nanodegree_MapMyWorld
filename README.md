@@ -13,6 +13,7 @@ You will ensure that all files are in the appropriate places, all links are prop
 When your robot is launched you will teleop around the room to generate a proper map of the environment.
 
 # Project Requirements
+ROS Kinetic
 Gazebo >= 7.0  
 
 # Project Setup
